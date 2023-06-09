@@ -107,6 +107,7 @@ h1 {
 }
 
 .page1 {
+  display: grid;
   margin-top: -100px;
   padding-top: -200px;
   width: 375px;
@@ -322,21 +323,22 @@ h1 {
 }
 
 .call1 {
-  margin-bottom: 35%;
+  margin-top: 6%;
+  margin-bottom: 45%;
   font-family: "Poppins", sans-serif;
   color: #7f8cff;
   font-style: normal;
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 30px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .socials1 {
   display: flex;
   list-style: none;
   position: relative;
-  left: 12px;
-  bottom: 100px;
+  left: 8px;
+  bottom: 110px;
 }
 
 .socials1 img {
@@ -344,12 +346,12 @@ h1 {
 }
 
 .btn3 {
-  margin-top: -35%;
-  margin-left: 2%;
+  margin-top: -30%;
+  margin-left: 4%;
 }
 
 .btn-get {
-  width: 124px;
+  width: 130px;
   text-align: center;
   height: 48px;
   border: 1px solid #6070ff;
@@ -418,7 +420,7 @@ h1 {
   line-height: 24px;
   text-decoration: none;
   color: black;
-  margin-left: 36px;
+  margin-left: 5%;
   margin-bottom: -20%;
 }
 
@@ -458,7 +460,7 @@ ul li.skill {
 
 .frameworks {
   margin-bottom: 8%;
-  margin-left: 7%;
+  margin-left: 5%;
   width: 80%;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -470,7 +472,7 @@ ul li.skill {
 
 .sky {
   margin-bottom: 13px;
-  margin-left: 7%;
+  margin-left: 5%;
   width: 80%;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
