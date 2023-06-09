@@ -10,7 +10,7 @@ body {
   max-width: 375px;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  background: #f7f7f9;
+  background: #fff;
 }
 
 header {
@@ -112,8 +112,7 @@ h1 {
   width: 375px;
   padding-left: 24px;
   padding-right: 24px;
-  background: white
-
+  background: white;
 }
 
 .layout1 {
@@ -121,17 +120,15 @@ h1 {
   flex-direction: column;
   align-content: center;
   padding: 16px;
-  border: 1px solid #fff;
   border-radius: 16px;
   margin-top: 50px;
   background-color: #fff;
-  border: #DFE1E6 solid 2px;
+  border: #dfe1e6 solid 2px;
   width: 100%;
-  
 }
+
 .layout1 img {
   width: 100%;
-  
 }
 
 .pra {
@@ -413,9 +410,6 @@ h1 {
 .accordion li {
   list-style: none;
 }
-.page4 {
-  border: #DFE1E6 solid 2px ;
-}
 
 .Language {
   font-size: 20px;
@@ -428,7 +422,7 @@ h1 {
   margin-bottom: -20%;
 }
 
-ul li.skill  {
+ul li.skill {
   display: flex;
   align-items: center;
   margin: 36px 36px 12px 36px;
@@ -485,6 +479,7 @@ ul li.skill  {
   text-decoration: none;
   color: #000;
 }
+
 .inm2 {
   position: relative;
   right: 20px;
