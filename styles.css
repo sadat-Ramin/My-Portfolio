@@ -492,3 +492,125 @@ ul li.skill {
   text-decoration: none;
   color: #000;
 }
+
+.contact {
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 45px 10px 30px 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s ease 0.5s;
+  z-index: 99999;
+}
+
+.modal-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.page5 {
+  margin-top: 130px;
+  margin-left: -6%;
+}
+
+.bag {
+  position: absolute;
+  width: 375px;
+  height: 800px;
+  background-color: #6070ff;
+  border-radius: 70px 0 0 0;
+}
+
+.shape1 {
+  list-style: none;
+  margin-left: 293px;
+  margin-top: 5%;
+}
+
+.shape2 {
+  list-style: none;
+  margin-left: 210px;
+  margin-top: 130%;
+}
+
+.shape3 {
+  list-style: none;
+  margin-left: 140px;
+  margin-top: -183%;
+}
+
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 52px;
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+  margin-top: 6%;
+}
+
+.p1 {
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ebebff;
+  list-style: none;
+  text-align: center;
+}
+
+ul li.skill1 {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 36px;
+  width: 320px;
+  height: 50px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  position: relative;
+  left: -1%;
+  bottom: -150%;
+}
+
+.skillـname1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 450;
+  font-size: 17px;
+  line-height: 29px;
+  color: #253858;
+  margin-left: 5%;
+}
+
+ul li.skill2 {
+  display: flex;
+  align-items: center;
+  margin: 15px 20px 0 36px;
+  width: 320px;
+  height: 50px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  position: relative;
+  left: -1%;
+  bottom: -150%;
+  padding-bottom: 45%;
+}
+
+.skillـname2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 273;
+  font-size: 14px;
+  line-height: 24px;
+  color: #b3bac5;
+  margin-left: 5%;
+  margin-bottom: -15%;
+}
