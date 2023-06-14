@@ -391,14 +391,14 @@ textarea {
 }
 
 textarea::placeholder {
-  font-family: 'Poppins, sans-serif';
+  font-family: "Poppins", sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   color: #b3bac5;
 }
-
+ 
 .btn-get {
   width: 130px;
   text-align: center;
@@ -439,7 +439,7 @@ textarea::placeholder {
   right: 78px;
   margin-bottom: -20%;
   list-style: none;
-  font-family: "Poppins, sans-serif";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
