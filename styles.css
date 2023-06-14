@@ -357,16 +357,16 @@ form {
 }
 
 input {
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
-  width:  327px;
+  width: 327px;
   height: 48px;
   margin: 10px 15px;
 }
 
 input::placeholder {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -391,14 +391,14 @@ textarea {
 }
 
 textarea::placeholder {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins, sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   color: #b3bac5;
 }
- 
+
 .btn-get {
   width: 130px;
   text-align: center;
@@ -428,7 +428,7 @@ textarea::placeholder {
   color: #6070ff;
 }
 
-#form-btn{
+#form-btn {
   margin-left: 15px;
 }
 
