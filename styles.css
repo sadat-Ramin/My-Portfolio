@@ -684,11 +684,10 @@ ul li.skill2 {
   font-size: 15px;
   transition: 0.2s;
   font-family: "Poppins", sans-serif;
-  margin-left: 8%;
-  margin: 6%  8%;
+  margin: 6% 8%;
 }
 
-.btn-get:hover {
+.btn-get1:hover {
   cursor: pointer;
   background-color: #6070ff;
   box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
