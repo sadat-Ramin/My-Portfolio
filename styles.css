@@ -671,3 +671,34 @@ ul li.skill2 {
 .form {
   padding-left: 3%;
 }
+
+.btn-get1 {
+  width: 130px;
+  text-align: center;
+  height: 48px;
+  border: 1px solid #6070ff;
+  background-color: #fff;
+  color: #396df2;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.2s;
+  font-family: "Poppins", sans-serif;
+  margin-left: 8%;
+  margin: 6%  8%;
+}
+
+.btn-get:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
+  transform: translateY(10px);
+  color: #fff;
+}
+
+.btn-get1:active {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
+}
