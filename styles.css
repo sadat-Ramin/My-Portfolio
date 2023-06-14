@@ -350,6 +350,31 @@ h1 {
   margin-left: 4%;
 }
 
+form{
+  display: contents;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input{
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width:  327px;
+  height: 48px;
+  margin: 10px;
+}
+
+::placeholder{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 20px;
+  color: #172b4d;
+}
+
 .btn-get {
   width: 130px;
   text-align: center;
