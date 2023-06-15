@@ -621,57 +621,102 @@ ul li.skill {
   list-style: none;
   text-align: center;
 }
-
-ul li.skill1 {
-  display: flex;
-  align-items: center;
-  margin: 15px 0 0 36px;
-  width: 320px;
-  height: 50px;
-  background-color: #f7f7f9;
-  border-radius: 8px;
-  position: relative;
-  left: -1%;
-  bottom: -150%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
 }
-
-.skillـname1 {
+.warpar,
+.warpar1,
+.warpar3{
+  margin: 0;
+  padding: 0;
+}
+.warpar input {
+background: #fff;
+width: 320px;
+height: 45px;
+margin-left: 7%;
+color: #172B4D;
+font-style: normal;
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 400px;
+text-align: center;
+}
+.warpar label{
+  position: absolute;
+  top: 47%;
+  margin-left: -87%;
+  transform: translateY(-50%);
+  transition: all .8s ease;
+  font-size: 16px;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
-  font-weight: 450;
-  font-size: 17px;
-  line-height: 29px;
-  color: #253858;
-  margin-left: 5%;
+  pointer-events: none;
+  color: #172b4d;
 }
-
-ul li.skill2 {
-  display: flex;
-  align-items: center;
-  margin: 15px 20px 0 36px;
-  width: 320px;
-  height: 50px;
-  background-color: #f7f7f9;
-  border-radius: 8px;
-  position: relative;
-  left: -1%;
-  bottom: -150%;
-  padding-bottom: 45%;
-}
-
-.skillـname2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 273;
-  font-size: 14px;
-  line-height: 24px;
+.warpar input:focus + label,
+.warpar input:valid + label{
+  font-size: 12px;
+  top: 46%;
+  padding: 5px;
   color: #b3bac5;
-  margin-left: 5%;
-  margin-bottom: -15%;
 }
-
-.form {
-  padding-left: 3%;
+.warpar1 input {
+  background: #fff;
+  width: 320px;
+  height: 45px;
+  margin-left: 7%;
+  color: #172B4D;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: center;
 }
-
+.warpar1 label {
+  position: absolute;
+  top: 55%;
+  margin-left: -87%;
+  transform: translateY(-50%);
+  transition: all .8s ease;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  pointer-events: none;
+  color: #172b4d
+}
+.warpar1 input:focus + label,
+.warpar1 input:valid + label{
+  font-size: 12px;
+  top: 54%;
+  padding: 5px;
+  color: #b3bac5;
+}
+.warpar3 input {
+  background: #fff;
+  width: 320px;
+  height: 180px;
+  margin-left: 7%;
+  color: #172B4D;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  align-items: start;
+  text-align: start;
+  }
+  .warpar3 label{
+    position: absolute;
+    top: 63%;
+    margin-left: -87%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #b3bac5;
+  }
 .btn-get1 {
   width: 130px;
   text-align: center;
@@ -688,17 +733,11 @@ ul li.skill2 {
   margin: 6%  8%;
 }
 
-.btn-get:hover {
-  cursor: pointer;
-  background-color: #6070ff;
-  box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
-  transform: translateY(10px);
-  color: #fff;
-}
-
-.btn-get1:active {
+.btn-get1:hover {
   cursor: pointer;
   background-color: #fff;
-  border: 1px solid #7f8cff;
-  color: #6070ff;
+  box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
+  transform: translateY(5px);
+  color: blue;
 }
+
