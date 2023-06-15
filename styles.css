@@ -734,6 +734,7 @@ ul li.skill {
   font-size: 15px;
   transition: 0.2s;
   font-family: "Poppins", sans-serif;
+  margin-left: 8%;
   margin: 6%  8%;
 }
 
@@ -743,4 +744,11 @@ ul li.skill {
   box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
   transform: translateY(5px);
   color: blue;
+}
+
+.btn-get1:active {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
 }
