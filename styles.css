@@ -570,33 +570,20 @@ ul li.skill {
 
 .page5 {
   margin-top: 130px;
-  margin-left: -6%;
+  margin-left: -10%;
 }
 
 .bag {
-  position: absolute;
-  width: 375px;
-  height: 800px;
-  background-color: #6070ff;
-  border-radius: 70px 0 0 0;
-}
-
-.shape1 {
-  list-style: none;
-  margin-left: 293px;
-  margin-top: 5%;
-}
-
-.shape2 {
-  list-style: none;
-  margin-left: 210px;
-  margin-top: 130%;
-}
-
-.shape3 {
-  list-style: none;
-  margin-left: 140px;
-  margin-top: -183%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(image/background/contact\ form\ shapes-mobile@2x.png);
+  background-position: top 20px right;
+  background-repeat: no-repeat;
+  background-color: #6070ff ;
+  height: 789px;
+  border-radius: 7rem 0 0 0;
+  width: 100%;
 }
 
 .h2 {
@@ -608,11 +595,11 @@ ul li.skill {
   color: #fff;
   list-style: none;
   text-align: center;
-  margin-top: 6%;
+  margin-top: 30px;
 }
 
 .p1 {
-  margin-top: 5%;
+  margin-top: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -630,25 +617,26 @@ ul li.skill {
   padding: 0;
 }
 
-.warpares input {
+.warpare input {
   background: #fff;
-  width: 320px;
-  height: 45px;
-  margin-left: 7%;
+  width: 330px;
+  height: 50px;
+  margin-left: 10%;
   color: #172b4d;
   font-style: normal;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400px;
   text-align: center;
+  margin-top: 15px;
 }
 
-.warpares label {
-  position: absolute;
-  top: 47%;
-  margin-left: -87%;
+.warpare label {
+  position: relative;
+  top: -50px;
+  left: 50px;
   transform: translateY(-50%);
-  transition: all 0.8s ease;
+  transition: all 0.2s ease;
   font-size: 16px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
@@ -658,23 +646,24 @@ ul li.skill {
 
 .salar input {
   background: #fff;
-  width: 320px;
-  height: 45px;
-  margin-left: 7%;
+  width: 330px;
+  height: 50px;
+  margin-left: 10%;
   color: #172b4d;
   font-style: normal;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400px;
   text-align: center;
+  margin-top: -15px;
 }
 
 .salar label {
-  position: absolute;
-  top: 55%;
-  margin-left: -87%;
+  position: relative;
+  top:  -50px;
+  left: 50px;
   transform: translateY(-50%);
-  transition: all 0.8s ease;
+  transition: all 0.2s ease;
   font-size: 16px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
@@ -684,9 +673,9 @@ ul li.skill {
 
 .sayed input {
   background: #fff;
-  width: 320px;
-  height: 180px;
-  margin-left: 7%;
+  width: 330px;
+  height: 200px;
+  margin-left: 10%;
   color: #172b4d;
   font-style: normal;
   font-family: "Poppins", sans-serif;
@@ -694,35 +683,45 @@ ul li.skill {
   font-weight: 400px;
   align-items: start;
   text-align: start;
+  margin-top: -10px ;
 }
 
 .sayed label {
-  position: absolute;
-  top: 63%;
-  margin-left: -87%;
-  font-size: 14px;
+  position: relative;
+  top:  -190px;
+  left: 50px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+  font-size: 16px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
+  pointer-events: none;
   color: #b3bac5;
 }
 
-.warpares input:focus + label,
-.warpares input:valid + label {
+.warpare input:focus + label,
+.warpare input:valid + label {
   font-size: 12px;
-  top: 46%;
+  top: -58px;
   padding: 5px;
-  color: #b3bac5;
+  color: #fff;
 }
 
 .salar input:focus + label,
 .salar input:valid + label {
   font-size: 12px;
-  top: 54%;
+  top: -58px;
   padding: 5px;
-  color: #b3bac5;
+  color: #fff;
+}
+.sayed input:focus + label,
+.sayed input:valid + label {
+  font-size: 12px;
+  padding: 5px;
+  color: #fff;
 }
 
-.btn-get1 {
+.submit-btn {
   width: 130px;
   text-align: center;
   height: 48px;
@@ -734,10 +733,10 @@ ul li.skill {
   font-size: 15px;
   transition: 0.2s;
   font-family: "Poppins", sans-serif;
-  margin: 6%  8%;
+  margin: -6%  9%;
 }
 
-.btn-get1:hover {
+.submit-btn:hover {
   cursor: pointer;
   background-color: #fff;
   box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
@@ -745,7 +744,7 @@ ul li.skill {
   color: blue;
 }
 
-.btn-get1:active {
+.submit-btn:active {
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #7f8cff;
