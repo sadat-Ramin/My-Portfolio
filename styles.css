@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: 0;
 }
 
 body {
@@ -621,102 +622,106 @@ ul li.skill {
   list-style: none;
   text-align: center;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: 0;
-}
-.warpar,
-.warpar1,
-.warpar3{
+
+.warpares,
+.salar,
+.sayed {
   margin: 0;
   padding: 0;
 }
-.warpar input {
-background: #fff;
-width: 320px;
-height: 45px;
-margin-left: 7%;
-color: #172B4D;
-font-style: normal;
-font-family: "Poppins", sans-serif;
-font-size: 16px;
-font-weight: 400px;
-text-align: center;
-}
-.warpar label{
-  position: absolute;
-  top: 47%;
-  margin-left: -87%;
-  transform: translateY(-50%);
-  transition: all .8s ease;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  pointer-events: none;
-  color: #172b4d;
-}
-.warpar input:focus + label,
-.warpar input:valid + label{
-  font-size: 12px;
-  top: 46%;
-  padding: 5px;
-  color: #b3bac5;
-}
-.warpar1 input {
+
+.warpares input {
   background: #fff;
   width: 320px;
   height: 45px;
   margin-left: 7%;
-  color: #172B4D;
+  color: #172b4d;
   font-style: normal;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400px;
   text-align: center;
 }
-.warpar1 label {
+
+.warpares label {
   position: absolute;
-  top: 55%;
+  top: 47%;
   margin-left: -87%;
   transform: translateY(-50%);
-  transition: all .8s ease;
+  transition: all 0.8s ease;
   font-size: 16px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   pointer-events: none;
-  color: #172b4d
+  color: #172b4d;
 }
-.warpar1 input:focus + label,
-.warpar1 input:valid + label{
-  font-size: 12px;
-  top: 54%;
-  padding: 5px;
-  color: #b3bac5;
+
+.salar input {
+  background: #fff;
+  width: 320px;
+  height: 45px;
+  margin-left: 7%;
+  color: #172b4d;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: center;
 }
-.warpar3 input {
+
+.salar label {
+  position: absolute;
+  top: 55%;
+  margin-left: -87%;
+  transform: translateY(-50%);
+  transition: all 0.8s ease;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  pointer-events: none;
+  color: #172b4d;
+}
+
+.sayed input {
   background: #fff;
   width: 320px;
   height: 180px;
   margin-left: 7%;
-  color: #172B4D;
+  color: #172b4d;
   font-style: normal;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400px;
   align-items: start;
   text-align: start;
-  }
-  .warpar3 label{
-    position: absolute;
-    top: 63%;
-    margin-left: -87%;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    color: #b3bac5;
-  }
+}
+
+.sayed label {
+  position: absolute;
+  top: 63%;
+  margin-left: -87%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #b3bac5;
+}
+
+.warpares input:focus + label,
+.warpares input:valid + label {
+  font-size: 12px;
+  top: 46%;
+  padding: 5px;
+  color: #b3bac5;
+}
+
+.salar input:focus + label,
+.salar input:valid + label {
+  font-size: 12px;
+  top: 54%;
+  padding: 5px;
+  color: #b3bac5;
+}
+
 .btn-get1 {
   width: 130px;
   text-align: center;
@@ -729,7 +734,6 @@ text-align: center;
   font-size: 15px;
   transition: 0.2s;
   font-family: "Poppins", sans-serif;
-  margin-left: 8%;
   margin: 6%  8%;
 }
 
@@ -740,4 +744,3 @@ text-align: center;
   transform: translateY(5px);
   color: blue;
 }
-
